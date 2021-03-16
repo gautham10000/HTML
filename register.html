@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Saurav">
+<link href="css1/bootstrap.min.css" rel="stylesheet">
+<style>
+  body {
+	background: url("/images/photo_bg.jpg") no-repeat center center fixed;
+
+}
+</style>
+<title>Responsive Registration Form Template</title>
+</head>
+
+<body class="bg-light">
+ <div class="container">
+  <div class="py-5 text-center">
+    <h2>Registration Form </h2>
+  </div>
+ </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+     <form>
+     <div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="text" class="form-control" id="firstName" >
+    </div>
+     
+    <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1">
+    
+  </div>
+  
+  
+  
+  <div class="row">
+          <div class="col-md-5 mb-3">
+            <label for="country">Country</label>
+            <select class="custom-select d-block w-100" id="country" required>
+              <option value="">Choose...</option>
+              <option>India</option>
+              <option>Sri Lanka</option>
+              <option>Nepal
+              </option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid country.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="state">State</label>
+            <select class="custom-select d-block w-100" id="state" required>
+              <option value="">Choose...</option>
+              <option>Karnataka</option>
+            </select>
+            <div class="invalid-feedback">
+              Please provide a valid state.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="Pin">Pin</label>
+            <input type="text" class="form-control" id="Pin" placeholder="" required>
+            
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Password</label>
+          <input type="text" class="form-control" id="password" >
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Re-Enter Password</label>
+            <input type="text" class="form-control" id="repassword" >
+            </div>
+       
+<hr class="mb-4">
+  <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+  </form>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
