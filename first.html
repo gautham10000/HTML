@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+ <html>
+     <head>
+         <title>First Page</title>
+         <style>
+             @keyframes example {
+                 from {font-size: 20px;color: wheat;font-style: normal;} 
+                to {font-size: 50px;color: teal;font-style: italic}
+                
+            }
+            
+             body{
+                 background-color: black;
+                 color: wheat;
+                 font-family: 'Courier New', Courier, monospace;
+             }
+             th,td{
+                 border: 1px green ridge ;
+                 align-content: center;
+                 padding: 10px;
+                 transition: transform 4s;
+                 animation-name: example;
+                 animation-duration: 5s;
+                 animation-iteration-count: infinite;
+                 animation-direction: alternate;
+                 animation-timing-function: linear;
+             }
+             #d1{
+                padding-left: 600px;
+                
+             }
+             td:hover{
+                 transform: rotateY(720deg)
+             }
+         </style>
+     </head>
+
+     <body>
+         <b><center> <h1>Tables in HTML-SJKV</h1> </center></b>
+         <div id="d1">
+         <table style="border: 4px yellow groove;text-align: center;">
+             <th>
+                 Month
+             </th>
+             <th>
+                 Expenses
+             </th>
+             <tr>
+             <td>Jan</td>
+             <td>4000</td>
+            </tr>
+            <tr>
+                <td>Feb</td>
+                <td>2500</td>
+            </tr>
+            <tr>
+                <td>Mar</td>
+                <td>4800</td>
+            </tr>
+         </table>
+        </div>
+     </body>
+ </html>
